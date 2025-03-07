@@ -108,7 +108,9 @@ mongoose
     { useNewUrlParser: true, useUnifiedTopology: true })
     .then(result => {
       console.log("Database Connected!");
-      https.createServer({key:privateKey,cert:certificate},app).listen(process.env.PORT || 3000);
+      app.listen(process.env.PORT || 3000, "0.0.0.0", () => {
+        console.log(`Server running on port `);
+      });
     })
     .catch(err => {
       console.log(err);
