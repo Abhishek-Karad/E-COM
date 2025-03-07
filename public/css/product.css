@@ -1,0 +1,44 @@
+.product-form {
+    width: 22rem;               /* Slightly wider for better spacing */
+    max-width: 95%;             /* Ensure it fits in smaller screens */
+    margin: 2rem auto;          /* More space around the form */
+    padding: 1rem;              /* Add padding for internal spacing */
+    border-radius: 8px;         /* Rounded corners */
+    background-color: #f9f9f9;  /* Light background for the form */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  /* Soft shadow */
+    display: block;
+}
+
+.product-item {
+    width: 22rem;               /* Increase width for a balanced layout */
+    max-width: 95%;             
+    margin: 1.5rem auto;        /* More space between items */
+    padding: 1.5rem;            /* Padding for item content */
+    border-radius: 10px;        /* Rounded corners for items */
+    background-color: #fff;     /* White background for the items */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Subtle shadow */
+    display: block;
+}
+
+.product__title {
+    font-size: 1.4rem;          /* Larger font for title */
+    text-align: center;
+    font-weight: bold;          /* Bold for emphasis */
+    color: #333;                /* Darker color for text */
+    margin-bottom: 0.8rem;      /* Space below the title */
+}
+
+.product__price {
+    text-align: center;
+    color: #f45d48;             /* Red-orange color for price */
+    font-size: 1.1rem;          /* Slightly larger font for price */
+    margin-bottom: 1rem;        /* Space below the price */
+}
+
+.product__description {
+    text-align: center;
+    color: #555;                /* Subtle gray for description */
+    font-size: 1rem;            /* Standard font size for description */
+    line-height: 1.4;           /* Add space between lines */
+    padding: 0 1rem;            /* Add padding for the description text */
+}
